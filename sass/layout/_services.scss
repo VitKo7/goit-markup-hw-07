@@ -6,6 +6,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  &-item {
+    position: relative;
+  }
 }
 
 .section-title {
@@ -15,10 +19,6 @@
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-}
-
-.services-list-item {
-  position: relative;
 }
 
 .label-title {

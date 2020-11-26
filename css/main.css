@@ -45,6 +45,16 @@ img {
   margin: 0 auto;
 }
 
+.hero .container {
+  padding: 200px 0;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -90,7 +100,6 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ! не могу убрать рамку с кнопки под фокусом... прописано свойстввами браузера */
 .modal-close-btn:hover .icon-close-svg,
 .modal-close-btn:focus .icon-close-svg {
   outline: none;
@@ -98,12 +107,7 @@ img {
   fill: #2196f3;
 }
 
-.header .container {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
+/* todo не могу убрать рамку с кнопки под фокусом... прописано свойстввами браузера */
 .navigation {
   display: flex;
   align-items: center;
@@ -118,6 +122,15 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.logo-Web,
+.logo-Studio {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
 .logo-Web {
   color: #2196f3;
 }
@@ -126,13 +139,9 @@ img {
   color: #000000;
 }
 
-.logo-Web,
-.logo-Studio {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
+.site-nav {
+  display: flex;
+  align-items: center;
 }
 
 .site-nav .link {
@@ -168,11 +177,6 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav {
-  display: flex;
-  align-items: center;
-}
-
 /* ! */
 .navigation-list-item:not(:last-child) {
   margin-right: 50px;
@@ -191,10 +195,6 @@ img {
 .tel {
   display: flex;
   align-items: center;
-}
-
-.header-contact-item .mail {
-  margin-right: 30px;
 }
 
 .envelope-svg {
@@ -217,10 +217,6 @@ img {
   width: 142px;
 }
 
-.header-contact-item {
-  fill: #757575;
-}
-
 .contact-item-svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -228,6 +224,14 @@ img {
 .contact-link:hover .contact-item-svg,
 .contact-link:focus .contact-item-svg {
   fill: #2196f3;
+}
+
+.header-contact-item {
+  fill: #757575;
+}
+
+.header-contact-item .mail {
+  margin-right: 30px;
 }
 
 .header-line {
@@ -262,10 +266,6 @@ img {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.hero .container {
-  padding: 200px 0;
 }
 
 .hero-title {
@@ -365,6 +365,10 @@ img {
   justify-content: space-between;
 }
 
+.services-list-item {
+  position: relative;
+}
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -372,10 +376,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-}
-
-.services-list-item {
-  position: relative;
 }
 
 .label-title {
@@ -399,6 +399,7 @@ img {
 .section-team {
   background: #f5f4fa;
   padding: 94px 0;
+  background-color: #f5f4fa;
 }
 
 .team-list {
@@ -407,15 +408,15 @@ img {
   justify-content: space-between;
 }
 
-.team-member-item > img {
-  margin-bottom: 30px;
-}
-
 .team-member-item {
   background: #ffffff;
   /* material shadow v1 */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.team-member-item > img {
+  margin-bottom: 30px;
 }
 
 .member-name {
@@ -436,10 +437,6 @@ img {
   /* margin-bottom: 30px; */
 }
 
-.section-team {
-  background-color: #f5f4fa;
-}
-
 .social-list {
   display: flex;
   justify-content: space-between;
@@ -457,15 +454,15 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.social-list-link:hover {
+  background-color: #2196f3;
+}
+
 .social-list-svg {
   fill: #afb1b8;
   width: 20px;
   height: 20px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-list-link:hover {
-  background-color: #2196f3;
 }
 
 .social-list-link:hover .social-list-svg {
@@ -503,21 +500,17 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-link:hover, .clients-link:focus {
+  border: 1px solid #2196f3;
 }
 
 .clients-item:not(:last-child) {
   margin-right: 30px;
-}
-
-.clients-link:hover,
-.clients-link:focus {
-  border: 1px solid #2196f3;
-}
-
-.clients-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .client-logo-svg {
@@ -608,14 +601,14 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-social-link:hover {
+  background-color: #2196f3;
+}
+
 .footer-social-svg {
   fill: #ffffff;
   width: 20px;
   height: 20px;
-}
-
-.footer-social-link:hover {
-  background-color: #2196f3;
 }
 
 .email-sub {
@@ -712,9 +705,9 @@ img {
 .modal-form-input-wrapper {
   display: block;
   position: relative;
+  margin-top: 4px;
 }
 
-.modal-form-input-wrapper,
 .modal-form-message {
   margin-top: 4px;
 }
@@ -730,20 +723,6 @@ img {
   margin-bottom: 12px;
 }
 
-.modal-form-field {
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.167;
-  letter-spacing: 0.01em;
-  color: #757575;
-}
-
-/* ! странно: почему не работает правило на последний элемент? а на все? */
-.modal-form-field:not(:last-child) {
-  margin-bottom: 10px;
-}
-
 .modal-form-input {
   width: 100%;
   height: 40px;
@@ -751,6 +730,20 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding-left: 40px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-field {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.167;
+  letter-spacing: 0.01em;
+  color: #757575;
+  /* ! странно: почему не работает правило на последний элемент? а на все? */
+}
+
+.modal-form-field:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .modal-form-message {
@@ -818,6 +811,17 @@ img {
 .contact-form-policy-label > a {
   text-decoration: underline;
   color: #2196f3;
+}
+
+.contact-form-policy-label::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 15px;
+  border: 2px solid #212121;
+  margin-right: 10px;
+  border-radius: 2px;
+  transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-form-policy-label::before {

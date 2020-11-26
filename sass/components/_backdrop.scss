@@ -20,19 +20,19 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
-}
 
-.modal-close-btn {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  box-sizing: border-box;
+  &-close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    box-sizing: border-box;
+  }
 }
 
 .icon-close-svg {
@@ -42,13 +42,13 @@
   top: 6px;
   right: 6px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .modal-close-btn:hover &,
+  .modal-close-btn:focus & {
+    outline: none;
+    outline-color: none;
+    fill: $accent-color;
+  }
 }
 
-/* ! не могу убрать рамку с кнопки под фокусом... прописано свойстввами браузера */
-
-.modal-close-btn:hover .icon-close-svg,
-.modal-close-btn:focus .icon-close-svg {
-  outline: none;
-  outline-color: none;
-  fill: $accent-color;
-}
+/* todo не могу убрать рамку с кнопки под фокусом... прописано свойстввами браузера */
