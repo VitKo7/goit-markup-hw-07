@@ -20,7 +20,7 @@
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: $title-text-color;
   margin-bottom: 12px;
 }
 
@@ -30,7 +30,7 @@
   font-size: 12px;
   line-height: 1.167;
   letter-spacing: 0.01em;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 
 /* ! странно: почему не работает правило на последний элемент? а на все? */
@@ -69,13 +69,13 @@
 .modal-form-input:focus,
 .modal-form-message:focus {
   outline: none;
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accent-color;
 }
 
 .modal-form-btn {
   width: 200px;
   height: 50px;
-  background: var(--accent-color);
+  background: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -108,12 +108,12 @@
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 
 .contact-form-policy-label > a {
   text-decoration: underline;
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .contact-form-policy-label::before {
@@ -121,7 +121,7 @@
   display: block;
   width: 16px;
   height: 15px;
-  border: 2px solid var(--title-text-color);
+  border: 2px solid $title-text-color;
   margin-right: 10px;
   border-radius: 2px;
   transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -139,7 +139,7 @@
 }
 
 .modal-form-input:focus + .modal-form-icon {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .modal-form-policy:checked + .contact-form-policy-label::before {

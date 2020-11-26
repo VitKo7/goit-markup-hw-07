@@ -40,7 +40,7 @@
 }
 
 .section-team {
-  background-color: var(--team-background);
+  background-color: $team-background;
 }
 
 .social-list {
@@ -68,7 +68,7 @@
 }
 
 .social-list-link:hover {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .social-list-link:hover .social-list-svg {

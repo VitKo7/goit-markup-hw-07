@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
-  background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
+  background-color: #ffffff;
+  color: #757575;
   font-family: Roboto, sans-serif;
   font-style: normal;
 }
@@ -12,7 +12,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--primary-text-color);
+  color: #757575;
 }
 
 h1,
@@ -21,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--title-text-color);
+  color: #212121;
 }
 
 *,
@@ -62,7 +62,7 @@ img {
   transform: translate(-50%, -50%);
   width: 528px;
   min-height: 581px;
-  background-color: var(--primary-white-color);
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
@@ -95,7 +95,7 @@ img {
 .modal-close-btn:focus .icon-close-svg {
   outline: none;
   outline-color: none;
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .header .container {
@@ -119,11 +119,11 @@ img {
 }
 
 .logo-Web {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .logo-Studio {
-  color: var(--hero-title);
+  color: #000000;
 }
 
 .logo-Web,
@@ -136,26 +136,26 @@ img {
 }
 
 .site-nav .link {
-  color: var(--title-text-color);
+  color: #212121;
 }
 
 .site-nav .current {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 /* .list .mail {
-  color: var(--accent-color);
+  color: $accent-color;
 } */
 .list .mail:hover,
 .list .mail:focus,
 .list .tel:hover,
 .list .tel:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .list .link,
@@ -218,7 +218,7 @@ img {
 }
 
 .header-contact-item {
-  fill: var(--primary-text-color);
+  fill: #757575;
 }
 
 .contact-item-svg {
@@ -227,7 +227,7 @@ img {
 
 .contact-link:hover .contact-item-svg,
 .contact-link:focus .contact-item-svg {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .header-line {
@@ -257,7 +257,7 @@ img {
 .hero {
   max-width: 1600px;
   margin: 0 auto;
-  background-color: var(--hero-background);
+  background-color: #c4c4c4;
   text-align: center;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/bg.jpg);
   background-repeat: no-repeat;
@@ -269,7 +269,7 @@ img {
 }
 
 .hero-title {
-  color: var(--primary-white-color);
+  color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -280,8 +280,8 @@ img {
 }
 
 .hero .button {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  color: #ffffff;
+  background-color: #2196f3;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -332,7 +332,7 @@ img {
   content: '';
   /* width: 100%; */
   height: 120px;
-  background-color: var(--team-background);
+  background-color: #f5f4fa;
   margin-bottom: 30px;
   background-repeat: no-repeat;
   background-size: 70px 70px;
@@ -389,7 +389,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-white-color);
+  color: #ffffff;
   width: 370px;
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
@@ -437,7 +437,7 @@ img {
 }
 
 .section-team {
-  background-color: var(--team-background);
+  background-color: #f5f4fa;
 }
 
 .social-list {
@@ -465,7 +465,7 @@ img {
 }
 
 .social-list-link:hover {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 
 .social-list-link:hover .social-list-svg {
@@ -511,7 +511,7 @@ img {
 
 .clients-link:hover,
 .clients-link:focus {
-  border: 1px solid var(--accent-color);
+  border: 1px solid #2196f3;
 }
 
 .clients-link {
@@ -529,19 +529,19 @@ img {
 
 .clients-link:hover .client-logo-svg,
 .clients-link:focus .client-logo-svg {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .footer {
   /* width: 1600px; */
   margin: 0 auto;
-  color: var(--primary-white-color);
-  background-color: var(--footer-background);
+  color: #ffffff;
+  background-color: #2f303a;
   padding: 60px 0;
 }
 
 .footer .logo-Studio {
-  color: var(--primary-white-color);
+  color: #ffffff;
 }
 
 .footer .mail,
@@ -572,7 +572,7 @@ img {
 }
 
 .slogan {
-  color: var(--primary-white-color);
+  color: #ffffff;
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
@@ -608,13 +608,13 @@ img {
 }
 
 .footer-social-svg {
-  fill: var(--primary-white-color);
+  fill: #ffffff;
   width: 20px;
   height: 20px;
 }
 
 .footer-social-link:hover {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 
 .email-sub {
@@ -632,7 +632,7 @@ img {
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-white-color);
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -662,7 +662,7 @@ img {
 }
 
 .email-form-btn {
-  background: var(--accent-color);
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   width: 200px;
@@ -684,7 +684,7 @@ img {
   line-height: 1.875;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--primary-white-color);
+  color: #ffffff;
   margin-right: 10px;
 }
 
@@ -715,7 +715,7 @@ img {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: #212121;
   margin-bottom: 12px;
 }
 
@@ -725,7 +725,7 @@ img {
   font-size: 12px;
   line-height: 1.167;
   letter-spacing: 0.01em;
-  color: var(--primary-text-color);
+  color: #757575;
 }
 
 /* ! странно: почему не работает правило на последний элемент? а на все? */
@@ -764,13 +764,13 @@ img {
 .modal-form-input:focus,
 .modal-form-message:focus {
   outline: none;
-  border: 1px solid var(--accent-color);
+  border: 1px solid #2196f3;
 }
 
 .modal-form-btn {
   width: 200px;
   height: 50px;
-  background: var(--accent-color);
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -801,12 +801,12 @@ img {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: #757575;
 }
 
 .contact-form-policy-label > a {
   text-decoration: underline;
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .contact-form-policy-label::before {
@@ -814,7 +814,7 @@ img {
   display: block;
   width: 16px;
   height: 15px;
-  border: 2px solid var(--title-text-color);
+  border: 2px solid #212121;
   margin-right: 10px;
   border-radius: 2px;
   transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -832,7 +832,7 @@ img {
 }
 
 .modal-form-input:focus + .modal-form-icon {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .modal-form-policy:checked + .contact-form-policy-label::before {

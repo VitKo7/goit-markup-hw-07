@@ -1,13 +1,13 @@
 .footer {
   /* width: 1600px; */
   margin: 0 auto;
-  color: var(--primary-white-color);
-  background-color: var(--footer-background);
+  color: $primary-white-color;
+  background-color: $footer-background;
   padding: 60px 0;
 }
 
 .footer .logo-Studio {
-  color: var(--primary-white-color);
+  color: $primary-white-color;
 }
 
 .footer .mail,
@@ -38,7 +38,7 @@
 }
 
 .slogan {
-  color: var(--primary-white-color);
+  color: $primary-white-color;
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
@@ -73,13 +73,13 @@
 }
 
 .footer-social-svg {
-  fill: var(--primary-white-color);
+  fill: $primary-white-color;
   width: 20px;
   height: 20px;
 }
 
 .footer-social-link:hover {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .email-sub {
@@ -97,7 +97,7 @@
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
   margin-bottom: 20px;
 }
 
@@ -127,7 +127,7 @@
 }
 
 .email-form-btn {
-  background: var(--accent-color);
+  background: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   width: 200px;
@@ -149,7 +149,7 @@
   line-height: 1.875;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
   margin-right: 10px;
 }
 

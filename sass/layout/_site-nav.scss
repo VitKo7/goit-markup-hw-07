@@ -1,25 +1,25 @@
 .site-nav .link {
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 
 .site-nav .current {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 /* .list .mail {
-  color: var(--accent-color);
+  color: $accent-color;
 } */
 
 .list .mail:hover,
 .list .mail:focus,
 .list .tel:hover,
 .list .tel:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .list .link,
@@ -80,7 +80,7 @@
 }
 
 .header-contact-item {
-  fill: var(--primary-text-color);
+  fill: $primary-text-color;
 }
 
 .contact-item-svg {
@@ -89,7 +89,7 @@
 
 .contact-link:hover .contact-item-svg,
 .contact-link:focus .contact-item-svg {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .header-line {

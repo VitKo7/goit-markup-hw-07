@@ -13,9 +13,9 @@
   padding: 6px 22px;
   margin-bottom: 16px;
   border: 0;
-  background: var(--team-background);
+  background: $team-background;
   border-radius: 4px;
-  color: var(--title-text-color);
+  color: $title-text-color;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -30,8 +30,8 @@
 
 .radio-button:hover,
 .radio-button:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  color: $primary-white-color;
+  background-color: $accent-color;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
