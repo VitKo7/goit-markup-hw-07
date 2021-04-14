@@ -1,2 +1,2 @@
-# goit-markup-hw-07
+# markup-07
 Styles practice
